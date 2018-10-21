@@ -1,0 +1,225 @@
+body
+{
+background-image: url("grafika/tlo.jpg");
+}
+
+#tresc
+{
+width: 900px;
+margin: 0 auto;
+background-color:#6666FF;
+}
+
+#stopka
+{
+width: 900px;
+margin: 0 auto;
+background-color:orange;
+text-align:center;
+}
+
+#restauracja
+{
+width:60%;
+margin:0 auto;
+display:block;
+}
+
+#zapraszamy
+{
+text-align:center;
+font-family: Georgia;
+font-style: italic;
+color: yellow;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#zegar
+{
+position:absolute;
+right:10px;
+top:10px;
+width:150px;
+height:150px;
+background-color:lightblue;
+border: 2px solid blue;
+border-radius: 25px;
+}
+
+#tekst
+{
+margin-right:40px;
+margin-left:40px;
+text-align:justify;
+}
+
+#budynek
+{
+width:60%;
+margin:0 auto;
+display:block;
+}
+
+#historia
+{
+font-style: italic;
+text-align:center;
+font-weight: bold;
+}
+
+#film
+{
+width:560px;
+margin:0 auto;
+display:block;
+}
+
+#zalozyciele
+{
+width:60%;
+margin:0 auto;
+display:block;
+}
+
+#studniowka
+{
+width:50%;
+margin:0 auto;
+display:block;
+border-radius: 25px;
+}
+
+#wesele
+{
+width:50%;
+margin:0 auto;
+display:block;
+border-radius: 25px;
+}
+
+#rodzinne
+{
+width:50%;
+margin:0 auto;
+display:block;
+border-radius: 25px;
+}
+
+#przystawki
+{
+width:40%;
+margin:0 auto;
+display:block;
+border-radius: 25px;
+border: 2px solid blue;
+}
+
+#strzalka
+{
+position:fixed;
+top:8px;
+left:17%;
+width:70px;
+}
+
+#zupy
+{
+width:40%;
+margin:0 auto;
+display:block;
+border-radius: 25px;
+}
+
+a.podpowiedz span {
+    display: none;
+    padding: 2px 3px;
+    margin-left: 8px;
+    width: 130px;
+}
+
+a.podpowiedz:hover span{
+    display: inline;
+    position: absolute;
+	margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #b30000;
+    color: #000000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
+
+table 
+{
+border-collapse: collapse;
+margin-left: auto; 
+margin-right: auto; 
+text-align: left;
+text-align:center;
+}
+
+table, th, td 
+{
+border: 1px solid black;
+}
+
+#glowne
+{
+width:200px
+}
+
+#salatki
+{
+width:50%;
+margin:0 auto;
+display:block;
+}
+
+#deser
+{
+width:20%;
+margin:0 auto;
+display:block;
+}
+
+#napoje
+{
+width:20%;
+margin:0 auto;
+display:block;
+}
+
+#green
+{
+background-color:green
+}
+
+#yellow
+{
+background-color:yellow;
+}
+
+#orange
+{
+background-color:orange;
+}
